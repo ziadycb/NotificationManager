@@ -42,7 +42,7 @@ public class ApiCall {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://latest-crypto-news.p.rapidapi.com/newsbtc/" + coin + "/latest"))
                 .header("x-rapidapi-host", "latest-crypto-news.p.rapidapi.com")
-                .header("x-rapidapi-key", "dd577d6511mshf4742c792d63926p154652jsn862655cd3f58")
+                .header("x-rapidapi-key", "fill api key here")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
