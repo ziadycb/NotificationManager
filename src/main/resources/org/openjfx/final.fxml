@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="810.0" prefWidth="1440.0" style="-fx-background-color: #2F2B43;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.Final">
+    <children>
+      <Pane layoutX="245.0" layoutY="-293.0" prefHeight="469.0" prefWidth="783.0" rotate="34.5" style="-fx-background-color: #FA2C56; -fx-background-radius: 70;" />
+        <Pane fx:id="webContain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="810.0" prefWidth="1440.0" AnchorPane.topAnchor="0.0">
+            <children>
+            <Pane layoutX="14.0" layoutY="80.0" prefHeight="315.0" prefWidth="675.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#Button1" opacity="0.7" prefHeight="315.0" prefWidth="675.0" style="-fx-background-color: #36324e;" styleClass="button2" text="Button1" />
+                  <ImageView fx:id="Image1" fitHeight="250.0" fitWidth="350.0" layoutX="164.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label1" alignment="CENTER" layoutX="2.0" layoutY="244.0" prefHeight="63.0" prefWidth="675.0" text="ETH" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="743.0" layoutY="80.0" prefHeight="315.0" prefWidth="675.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#Button1" opacity="0.7" prefHeight="315.0" prefWidth="675.0" style="-fx-background-color: #36324e;" styleClass="button2" text="Button2" />
+                  <ImageView fx:id="Image2" fitHeight="250.0" fitWidth="350.0" layoutX="164.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label2" alignment="CENTER" layoutX="1.0" layoutY="255.0" prefHeight="63.0" prefWidth="675.0" text="ETH" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="743.0" layoutY="472.0" prefHeight="315.0" prefWidth="675.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#Button1" opacity="0.7" prefHeight="315.0" prefWidth="675.0" style="-fx-background-color: #36324e;" styleClass="button2" text="Button4" />
+                  <ImageView fx:id="Image4" fitHeight="250.0" fitWidth="350.0" layoutX="164.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label4" alignment="CENTER" layoutY="255.0" prefHeight="63.0" prefWidth="675.0" text="ETH" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="14.0" layoutY="472.0" prefHeight="315.0" prefWidth="675.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#Button1" opacity="0.7" prefHeight="315.0" prefWidth="675.0" style="-fx-background-color: #36324e;" styleClass="button2" text="Button3" />
+                  <ImageView fx:id="Image3" fitHeight="250.0" fitWidth="350.0" layoutX="164.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label3" alignment="CENTER" layoutX="1.0" layoutY="255.0" prefHeight="63.0" prefWidth="675.0" text="ETH" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <BorderPane fx:id="BorderPane" layoutX="231.0" layoutY="103.0" prefHeight="641.0" prefWidth="929.0">
+               <bottom>
+                  <Button fx:id="invisibleButton" mnemonicParsing="false" onAction="#exitWeb" text="Exit" visible="false" BorderPane.alignment="CENTER" />
+               </bottom></BorderPane>
+            <Button layoutX="30.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchBack" style="-fx-background-color: FA2C56;" text="Back" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
